@@ -42,13 +42,18 @@ A short pitch of your solution — what you built, who it’s for, and why it’
 
 ```bash
 .
-├── frontend/           # Frontend code
-├── backend/            # Backend code
-├── contracts/          # Smart contracts
-├── assets/             # PPT, video links, images
-├── docs/               # Architecture diagram, notes
-├── README.md           # A detailed description of your project
-├── .env.example
-├── package.json / requirements.txt
-├── yourppt.ppt
+Defi/
+├── app/
+│   ├── page.tsx          # Main application
+│   ├── layout.tsx        # Root layout
+│   ├── globals.css       # Global styles
+│   └── api/
+│       ├── gemini/       # AI API endpoint
+│       └── market-data/  # Market data API
+├── components/           # Reusable components
+├── public/              # Static assets
+├── package.json         # Dependencies
+├── tailwind.config.js   # Tailwind configuration
+├── next.config.js       # Next.js configuration
+└── tsconfig.json        # TypeScript configuration
 
